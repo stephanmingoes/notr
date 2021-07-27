@@ -1,0 +1,181 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+header {
+  position: relative;
+}
+
+.main {
+  text-align: center;
+}
+.logo {
+  position: static !important;
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  background-color: teal !important;
+  color: white;
+  font-family: "McLaren", cursive;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.note {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #ccc;
+  display: inline-block;
+  padding: 1rem;
+  margin: 20px;
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+  overflow: auto;
+  text-align: left;
+}
+.note h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.note p {
+  margin-bottom: 2rem;
+}
+.date {
+  font-size: 0.8rem;
+  color: grey;
+  margin-right: 150px;
+}
+.note button {
+  background-color: transparent;
+  color: teal;
+  border: none;
+  font-size: 0.9rem;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1rem;
+}
+.new-note {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #ccc;
+  max-width: 400px;
+  min-height: 150px;
+  margin: 2rem auto;
+  position: relative;
+  text-align: left;
+}
+.new-note input {
+  border-radius: 8px 8px 0px 0px;
+}
+.new-note input,
+textarea {
+  border: none;
+  outline: none;
+  display: block;
+  font-family: inherit;
+  font-size: 1.3rem;
+  resize: none;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.new-note input:focus,
+textarea:focus {
+  outline: none;
+}
+.new-note button {
+  border: none;
+  background-color: teal;
+  color: white;
+  bottom: -18px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  position: absolute;
+  padding: 0.8rem;
+  width: 3rem;
+  height: 3rem;
+  right: 1.5rem;
+}
+.new-note button:hover {
+  background-color: rgb(7, 182, 182);
+}
+.live-time-and-date {
+  position: absolute;
+  color: grey;
+  font-size: 0.7rem;
+  bottom: 1rem;
+  left: 0.5rem;
+}
+
+.auth_div {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth_div p {
+  color: grey;
+  cursor: pointer;
+}
+.auth_div h2 {
+  margin-bottom: 1rem;
+}
+
+.auth_div input {
+  border: 0.5px solid grey;
+  border-radius: 4px;
+  width: 100%;
+  padding: 1rem;
+  display: block;
+  margin-bottom: 0.9rem;
+}
+
+.auth_paper {
+  text-align: center;
+  height: fit-content;
+  padding: 1rem;
+}
+.auth_btn {
+  background-color: rgb(7, 182, 182) !important;
+  color: white !important;
+  width: 100%;
+  margin-bottom: 1rem !important;
+}
+.password_div {
+  position: relative;
+}
+
+.password_visibility {
+  position: absolute;
+  top: 1.5rem;
+  right: 0;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+}
+.user p {
+  font-size: 1rem;
+}
+.user div {
+  padding: 0 0.5rem;
+}
+.header_btn {
+  color: rgb(7, 182, 182) !important;
+  background-color: white !important;
+}
+.circ-pro {
+  color: rgb(7, 182, 182) !important;
+}
